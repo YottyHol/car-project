@@ -80,7 +80,7 @@ void loop()//main function
   switch (c) {
     case STOP:
       goStop();
-      commandQueue.
+      emptyQueue();
     case GO: goForward();
     case BACK: goBack();
     case LEFT: turnLeft();
